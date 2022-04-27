@@ -887,8 +887,91 @@ loadjs.ready("fdoc_juzmatch3edit", function() {
     <div class="<?= $Page->OffsetColumnClass ?>"><!-- buttons offset -->
 <button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="submit"><?= $Language->phrase("SaveBtn") ?></button>
 <button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button" data-href="<?= HtmlEncode(GetUrl($Page->getReturnUrl())) ?>"><?= $Language->phrase("CancelBtn") ?></button>
+<button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="button">ดาวน์โหลดตัวอย่างเอกสาร</button>
+<button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button">ส่งไป Creden eSign</button>
     </div><!-- /buttons offset -->
 </div><!-- /buttons .row -->
+
+<!-- Table -->
+<table id="tbl_categorylist" class="table table-bordered table-hover table-sm ew-table table-head-fixed ew-fixed-header-table">
+    <!-- .ew-table -->
+    <thead style="color: white; text-align: center;">
+        <tr class="ew-table-header">
+            <th class="ew-list-option-header text-nowrap" data-name="sequence">
+                <span id="elh_category_sequence" class="category_sequence">ลำดับ</span>
+            </th>
+            <th data-name="category_name" class="ew-table-header-cell">
+                <div id="elh_category_category_name" class="category_category_name">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=category_name&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >ชื่อ-นามสกุล</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+            <th data-name="image" class="ew-table-header-cell">
+                <div id="elh_category_image" class="category_image">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=image&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >อีเมล์</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+            <th data-name="image" class="ew-table-header-cell">
+                <div id="elh_category_image" class="category_image">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=image&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >ลิ้งค์สำหรับเอกสาร</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-rowindex="1" id="r1_category" data-rowtype="1">
+            <td class="ew-list-option-body text-nowrap" data-name="sequence">
+                <span id="el1_category_sequence" class="category_sequence">1.</span>
+            </td>
+            <td data-name="category_name">
+                <span id="el1_category_category_name" class="el_category_category_name">
+                    <span>Buyer</span>
+                </span>
+            </td>
+            <td data-name="order_by">
+                <span id="el1_category_order_by" class="el_category_order_by">
+                    <span>Buyer@email.com</span>
+                </span>
+            </td>
+            <td data-name="order_by">
+                <span id="el1_category_order_by" class="el_category_order_by">
+                    <a href="#">ลิ้งค์สำหรับเซ็นสัญญา</a>
+                </span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="row"><!-- buttons .row -->
+    <div class="<?= $Page->OffsetColumnClass ?>"><!-- buttons offset -->
+<button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="button">ดาวน์โหลดเอกสาร</button>
+<button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button">ยกเลิกเอกสารนี้</button>
+    </div><!-- /buttons offset -->
+</div>
+
 <?php } ?>
 </form>
 <?php

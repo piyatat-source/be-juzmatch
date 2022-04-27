@@ -104,7 +104,7 @@ $Page->showMessage();
 <input type="hidden" name="fk_buyer_booking_asset_id" value="<?= HtmlEncode($Page->buyer_booking_asset_id->getSessionValue()) ?>">
 <?php } ?>
 <div class="ew-edit-div"><!-- page* -->
-<?php if ($Page->asset_code->Visible) { // asset_code ?>
+<?php if ($Page->asset_code->Visible) { // asset_code?>
     <div id="r_asset_code"<?= $Page->asset_code->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_asset_code" for="x_asset_code" class="<?= $Page->LeftColumnClass ?>"><?= $Page->asset_code->caption() ?><?= $Page->asset_code->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->asset_code->cellAttributes() ?>>
@@ -116,7 +116,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->asset_deed->Visible) { // asset_deed ?>
+<?php if ($Page->asset_deed->Visible) { // asset_deed?>
     <div id="r_asset_deed"<?= $Page->asset_deed->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_asset_deed" for="x_asset_deed" class="<?= $Page->LeftColumnClass ?>"><?= $Page->asset_deed->caption() ?><?= $Page->asset_deed->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->asset_deed->cellAttributes() ?>>
@@ -128,7 +128,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->asset_project->Visible) { // asset_project ?>
+<?php if ($Page->asset_project->Visible) { // asset_project?>
     <div id="r_asset_project"<?= $Page->asset_project->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_asset_project" for="x_asset_project" class="<?= $Page->LeftColumnClass ?>"><?= $Page->asset_project->caption() ?><?= $Page->asset_project->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->asset_project->cellAttributes() ?>>
@@ -140,7 +140,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->asset_area->Visible) { // asset_area ?>
+<?php if ($Page->asset_area->Visible) { // asset_area?>
     <div id="r_asset_area"<?= $Page->asset_area->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_asset_area" for="x_asset_area" class="<?= $Page->LeftColumnClass ?>"><?= $Page->asset_area->caption() ?><?= $Page->asset_area->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->asset_area->cellAttributes() ?>>
@@ -152,7 +152,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_name->Visible) { // buyer_name ?>
+<?php if ($Page->buyer_name->Visible) { // buyer_name?>
     <div id="r_buyer_name"<?= $Page->buyer_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_name" for="x_buyer_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_name->caption() ?><?= $Page->buyer_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_name->cellAttributes() ?>>
@@ -164,7 +164,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_lname->Visible) { // buyer_lname ?>
+<?php if ($Page->buyer_lname->Visible) { // buyer_lname?>
     <div id="r_buyer_lname"<?= $Page->buyer_lname->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_lname" for="x_buyer_lname" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_lname->caption() ?><?= $Page->buyer_lname->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_lname->cellAttributes() ?>>
@@ -176,7 +176,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_email->Visible) { // buyer_email ?>
+<?php if ($Page->buyer_email->Visible) { // buyer_email?>
     <div id="r_buyer_email"<?= $Page->buyer_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_email" for="x_buyer_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_email->caption() ?><?= $Page->buyer_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_email->cellAttributes() ?>>
@@ -188,7 +188,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_idcard->Visible) { // buyer_idcard ?>
+<?php if ($Page->buyer_idcard->Visible) { // buyer_idcard?>
     <div id="r_buyer_idcard"<?= $Page->buyer_idcard->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_idcard" for="x_buyer_idcard" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_idcard->caption() ?><?= $Page->buyer_idcard->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_idcard->cellAttributes() ?>>
@@ -200,7 +200,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_homeno->Visible) { // buyer_homeno ?>
+<?php if ($Page->buyer_homeno->Visible) { // buyer_homeno?>
     <div id="r_buyer_homeno"<?= $Page->buyer_homeno->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_homeno" for="x_buyer_homeno" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_homeno->caption() ?><?= $Page->buyer_homeno->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_homeno->cellAttributes() ?>>
@@ -212,7 +212,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_witness_name->Visible) { // buyer_witness_name ?>
+<?php if ($Page->buyer_witness_name->Visible) { // buyer_witness_name?>
     <div id="r_buyer_witness_name"<?= $Page->buyer_witness_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_witness_name" for="x_buyer_witness_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_witness_name->caption() ?><?= $Page->buyer_witness_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_witness_name->cellAttributes() ?>>
@@ -224,7 +224,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_witness_lname->Visible) { // buyer_witness_lname ?>
+<?php if ($Page->buyer_witness_lname->Visible) { // buyer_witness_lname?>
     <div id="r_buyer_witness_lname"<?= $Page->buyer_witness_lname->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_witness_lname" for="x_buyer_witness_lname" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_witness_lname->caption() ?><?= $Page->buyer_witness_lname->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_witness_lname->cellAttributes() ?>>
@@ -236,7 +236,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->buyer_witness_email->Visible) { // buyer_witness_email ?>
+<?php if ($Page->buyer_witness_email->Visible) { // buyer_witness_email?>
     <div id="r_buyer_witness_email"<?= $Page->buyer_witness_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_buyer_witness_email" for="x_buyer_witness_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->buyer_witness_email->caption() ?><?= $Page->buyer_witness_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->buyer_witness_email->cellAttributes() ?>>
@@ -248,7 +248,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_name->Visible) { // juzmatch_authority_name ?>
+<?php if ($Page->juzmatch_authority_name->Visible) { // juzmatch_authority_name?>
     <div id="r_juzmatch_authority_name"<?= $Page->juzmatch_authority_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_name" for="x_juzmatch_authority_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_name->caption() ?><?= $Page->juzmatch_authority_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_name->cellAttributes() ?>>
@@ -260,7 +260,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_lname->Visible) { // juzmatch_authority_lname ?>
+<?php if ($Page->juzmatch_authority_lname->Visible) { // juzmatch_authority_lname?>
     <div id="r_juzmatch_authority_lname"<?= $Page->juzmatch_authority_lname->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_lname" for="x_juzmatch_authority_lname" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_lname->caption() ?><?= $Page->juzmatch_authority_lname->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_lname->cellAttributes() ?>>
@@ -272,7 +272,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_email->Visible) { // juzmatch_authority_email ?>
+<?php if ($Page->juzmatch_authority_email->Visible) { // juzmatch_authority_email?>
     <div id="r_juzmatch_authority_email"<?= $Page->juzmatch_authority_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_email" for="x_juzmatch_authority_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_email->caption() ?><?= $Page->juzmatch_authority_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_email->cellAttributes() ?>>
@@ -284,7 +284,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_witness_name->Visible) { // juzmatch_authority_witness_name ?>
+<?php if ($Page->juzmatch_authority_witness_name->Visible) { // juzmatch_authority_witness_name?>
     <div id="r_juzmatch_authority_witness_name"<?= $Page->juzmatch_authority_witness_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_witness_name" for="x_juzmatch_authority_witness_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_witness_name->caption() ?><?= $Page->juzmatch_authority_witness_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_witness_name->cellAttributes() ?>>
@@ -296,7 +296,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_witness_lname->Visible) { // juzmatch_authority_witness_lname ?>
+<?php if ($Page->juzmatch_authority_witness_lname->Visible) { // juzmatch_authority_witness_lname?>
     <div id="r_juzmatch_authority_witness_lname"<?= $Page->juzmatch_authority_witness_lname->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_witness_lname" for="x_juzmatch_authority_witness_lname" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_witness_lname->caption() ?><?= $Page->juzmatch_authority_witness_lname->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_witness_lname->cellAttributes() ?>>
@@ -308,7 +308,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority_witness_email->Visible) { // juzmatch_authority_witness_email ?>
+<?php if ($Page->juzmatch_authority_witness_email->Visible) { // juzmatch_authority_witness_email?>
     <div id="r_juzmatch_authority_witness_email"<?= $Page->juzmatch_authority_witness_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority_witness_email" for="x_juzmatch_authority_witness_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority_witness_email->caption() ?><?= $Page->juzmatch_authority_witness_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority_witness_email->cellAttributes() ?>>
@@ -320,7 +320,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority2_name->Visible) { // juzmatch_authority2_name ?>
+<?php if ($Page->juzmatch_authority2_name->Visible) { // juzmatch_authority2_name?>
     <div id="r_juzmatch_authority2_name"<?= $Page->juzmatch_authority2_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority2_name" for="x_juzmatch_authority2_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority2_name->caption() ?><?= $Page->juzmatch_authority2_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority2_name->cellAttributes() ?>>
@@ -332,7 +332,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority2_lname->Visible) { // juzmatch_authority2_lname ?>
+<?php if ($Page->juzmatch_authority2_lname->Visible) { // juzmatch_authority2_lname?>
     <div id="r_juzmatch_authority2_lname"<?= $Page->juzmatch_authority2_lname->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority2_lname" for="x_juzmatch_authority2_lname" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority2_lname->caption() ?><?= $Page->juzmatch_authority2_lname->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority2_lname->cellAttributes() ?>>
@@ -344,7 +344,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->juzmatch_authority2_email->Visible) { // juzmatch_authority2_email ?>
+<?php if ($Page->juzmatch_authority2_email->Visible) { // juzmatch_authority2_email?>
     <div id="r_juzmatch_authority2_email"<?= $Page->juzmatch_authority2_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_juzmatch_authority2_email" for="x_juzmatch_authority2_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->juzmatch_authority2_email->caption() ?><?= $Page->juzmatch_authority2_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->juzmatch_authority2_email->cellAttributes() ?>>
@@ -356,7 +356,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->company_seal_name->Visible) { // company_seal_name ?>
+<?php if ($Page->company_seal_name->Visible) { // company_seal_name?>
     <div id="r_company_seal_name"<?= $Page->company_seal_name->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_company_seal_name" for="x_company_seal_name" class="<?= $Page->LeftColumnClass ?>"><?= $Page->company_seal_name->caption() ?><?= $Page->company_seal_name->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->company_seal_name->cellAttributes() ?>>
@@ -368,7 +368,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->company_seal_email->Visible) { // company_seal_email ?>
+<?php if ($Page->company_seal_email->Visible) { // company_seal_email?>
     <div id="r_company_seal_email"<?= $Page->company_seal_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_company_seal_email" for="x_company_seal_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->company_seal_email->caption() ?><?= $Page->company_seal_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->company_seal_email->cellAttributes() ?>>
@@ -380,7 +380,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->service_price->Visible) { // service_price ?>
+<?php if ($Page->service_price->Visible) { // service_price?>
     <div id="r_service_price"<?= $Page->service_price->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_service_price" for="x_service_price" class="<?= $Page->LeftColumnClass ?>"><?= $Page->service_price->caption() ?><?= $Page->service_price->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->service_price->cellAttributes() ?>>
@@ -392,7 +392,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->service_price_txt->Visible) { // service_price_txt ?>
+<?php if ($Page->service_price_txt->Visible) { // service_price_txt?>
     <div id="r_service_price_txt"<?= $Page->service_price_txt->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_service_price_txt" for="x_service_price_txt" class="<?= $Page->LeftColumnClass ?>"><?= $Page->service_price_txt->caption() ?><?= $Page->service_price_txt->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->service_price_txt->cellAttributes() ?>>
@@ -404,7 +404,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->first_down->Visible) { // first_down ?>
+<?php if ($Page->first_down->Visible) { // first_down?>
     <div id="r_first_down"<?= $Page->first_down->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_first_down" for="x_first_down" class="<?= $Page->LeftColumnClass ?>"><?= $Page->first_down->caption() ?><?= $Page->first_down->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->first_down->cellAttributes() ?>>
@@ -416,7 +416,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->first_down_txt->Visible) { // first_down_txt ?>
+<?php if ($Page->first_down_txt->Visible) { // first_down_txt?>
     <div id="r_first_down_txt"<?= $Page->first_down_txt->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_first_down_txt" for="x_first_down_txt" class="<?= $Page->LeftColumnClass ?>"><?= $Page->first_down_txt->caption() ?><?= $Page->first_down_txt->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->first_down_txt->cellAttributes() ?>>
@@ -428,7 +428,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->second_down->Visible) { // second_down ?>
+<?php if ($Page->second_down->Visible) { // second_down?>
     <div id="r_second_down"<?= $Page->second_down->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_second_down" for="x_second_down" class="<?= $Page->LeftColumnClass ?>"><?= $Page->second_down->caption() ?><?= $Page->second_down->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->second_down->cellAttributes() ?>>
@@ -440,7 +440,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->second_down_txt->Visible) { // second_down_txt ?>
+<?php if ($Page->second_down_txt->Visible) { // second_down_txt?>
     <div id="r_second_down_txt"<?= $Page->second_down_txt->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_second_down_txt" for="x_second_down_txt" class="<?= $Page->LeftColumnClass ?>"><?= $Page->second_down_txt->caption() ?><?= $Page->second_down_txt->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->second_down_txt->cellAttributes() ?>>
@@ -452,7 +452,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->contact_address->Visible) { // contact_address ?>
+<?php if ($Page->contact_address->Visible) { // contact_address?>
     <div id="r_contact_address"<?= $Page->contact_address->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_contact_address" for="x_contact_address" class="<?= $Page->LeftColumnClass ?>"><?= $Page->contact_address->caption() ?><?= $Page->contact_address->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->contact_address->cellAttributes() ?>>
@@ -464,7 +464,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->contact_address2->Visible) { // contact_address2 ?>
+<?php if ($Page->contact_address2->Visible) { // contact_address2?>
     <div id="r_contact_address2"<?= $Page->contact_address2->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_contact_address2" for="x_contact_address2" class="<?= $Page->LeftColumnClass ?>"><?= $Page->contact_address2->caption() ?><?= $Page->contact_address2->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->contact_address2->cellAttributes() ?>>
@@ -476,7 +476,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->contact_email->Visible) { // contact_email ?>
+<?php if ($Page->contact_email->Visible) { // contact_email?>
     <div id="r_contact_email"<?= $Page->contact_email->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_contact_email" for="x_contact_email" class="<?= $Page->LeftColumnClass ?>"><?= $Page->contact_email->caption() ?><?= $Page->contact_email->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->contact_email->cellAttributes() ?>>
@@ -488,7 +488,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->contact_lineid->Visible) { // contact_lineid ?>
+<?php if ($Page->contact_lineid->Visible) { // contact_lineid?>
     <div id="r_contact_lineid"<?= $Page->contact_lineid->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_contact_lineid" for="x_contact_lineid" class="<?= $Page->LeftColumnClass ?>"><?= $Page->contact_lineid->caption() ?><?= $Page->contact_lineid->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->contact_lineid->cellAttributes() ?>>
@@ -500,7 +500,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->contact_phone->Visible) { // contact_phone ?>
+<?php if ($Page->contact_phone->Visible) { // contact_phone?>
     <div id="r_contact_phone"<?= $Page->contact_phone->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_contact_phone" for="x_contact_phone" class="<?= $Page->LeftColumnClass ?>"><?= $Page->contact_phone->caption() ?><?= $Page->contact_phone->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->contact_phone->cellAttributes() ?>>
@@ -512,7 +512,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->file_idcard->Visible) { // file_idcard ?>
+<?php if ($Page->file_idcard->Visible) { // file_idcard?>
     <div id="r_file_idcard"<?= $Page->file_idcard->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_file_idcard" class="<?= $Page->LeftColumnClass ?>"><?= $Page->file_idcard->caption() ?><?= $Page->file_idcard->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->file_idcard->cellAttributes() ?>>
@@ -533,7 +533,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->file_house_regis->Visible) { // file_house_regis ?>
+<?php if ($Page->file_house_regis->Visible) { // file_house_regis?>
     <div id="r_file_house_regis"<?= $Page->file_house_regis->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_file_house_regis" class="<?= $Page->LeftColumnClass ?>"><?= $Page->file_house_regis->caption() ?><?= $Page->file_house_regis->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->file_house_regis->cellAttributes() ?>>
@@ -554,7 +554,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->file_titledeed->Visible) { // file_titledeed ?>
+<?php if ($Page->file_titledeed->Visible) { // file_titledeed?>
     <div id="r_file_titledeed"<?= $Page->file_titledeed->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_file_titledeed" class="<?= $Page->LeftColumnClass ?>"><?= $Page->file_titledeed->caption() ?><?= $Page->file_titledeed->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->file_titledeed->cellAttributes() ?>>
@@ -575,7 +575,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->file_other->Visible) { // file_other ?>
+<?php if ($Page->file_other->Visible) { // file_other?>
     <div id="r_file_other"<?= $Page->file_other->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_file_other" class="<?= $Page->LeftColumnClass ?>"><?= $Page->file_other->caption() ?><?= $Page->file_other->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->file_other->cellAttributes() ?>>
@@ -596,7 +596,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->attach_file->Visible) { // attach_file ?>
+<?php if ($Page->attach_file->Visible) { // attach_file?>
     <div id="r_attach_file"<?= $Page->attach_file->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_attach_file" for="x_attach_file" class="<?= $Page->LeftColumnClass ?>"><?= $Page->attach_file->caption() ?><?= $Page->attach_file->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->attach_file->cellAttributes() ?>>
@@ -608,7 +608,7 @@ $Page->showMessage();
 </div></div>
     </div>
 <?php } ?>
-<?php if ($Page->status->Visible) { // status ?>
+<?php if ($Page->status->Visible) { // status?>
     <div id="r_status"<?= $Page->status->rowAttributes() ?>>
         <label id="elh_doc_juzmatch1_status" for="x_status" class="<?= $Page->LeftColumnClass ?>"><?= $Page->status->caption() ?><?= $Page->status->Required ? $Language->phrase("FieldRequiredIndicator") : "" ?></label>
         <div class="<?= $Page->RightColumnClass ?>"><div<?= $Page->status->cellAttributes() ?>>
@@ -653,8 +653,89 @@ loadjs.ready("fdoc_juzmatch1edit", function() {
     <div class="<?= $Page->OffsetColumnClass ?>"><!-- buttons offset -->
 <button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="submit"><?= $Language->phrase("SaveBtn") ?></button>
 <button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button" data-href="<?= HtmlEncode(GetUrl($Page->getReturnUrl())) ?>"><?= $Language->phrase("CancelBtn") ?></button>
+<button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="button">ดาวน์โหลดตัวอย่างเอกสาร</button>
+<button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button">ส่งไป Creden eSign</button>
     </div><!-- /buttons offset -->
 </div><!-- /buttons .row -->
+<!-- Table -->
+<table id="tbl_categorylist" class="table table-bordered table-hover table-sm ew-table table-head-fixed ew-fixed-header-table">
+    <!-- .ew-table -->
+    <thead style="color: white; text-align: center;">
+        <tr class="ew-table-header">
+            <th class="ew-list-option-header text-nowrap" data-name="sequence">
+                <span id="elh_category_sequence" class="category_sequence">ลำดับ</span>
+            </th>
+            <th data-name="category_name" class="ew-table-header-cell">
+                <div id="elh_category_category_name" class="category_category_name">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=category_name&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >ชื่อ-นามสกุล</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+            <th data-name="image" class="ew-table-header-cell">
+                <div id="elh_category_image" class="category_image">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=image&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >อีเมล์</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+            <th data-name="image" class="ew-table-header-cell">
+                <div id="elh_category_image" class="category_image">
+                    <div class="ew-table-header-btn">
+                        <div
+                            class="ew-table-header-caption"
+                            role="button"
+                            data-sort-url="categorylist?order=image&amp;ordertype=ASC"
+                            data-sort-type="2"
+                        >ลิ้งค์สำหรับเอกสาร</div>
+                        <div class="ew-table-header-sort"></div>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-rowindex="1" id="r1_category" data-rowtype="1">
+            <td class="ew-list-option-body text-nowrap" data-name="sequence">
+                <span id="el1_category_sequence" class="category_sequence">1.</span>
+            </td>
+            <td data-name="category_name">
+                <span id="el1_category_category_name" class="el_category_category_name">
+                    <span>Buyer</span>
+                </span>
+            </td>
+            <td data-name="order_by">
+                <span id="el1_category_order_by" class="el_category_order_by">
+                    <span>Buyer@email.com</span>
+                </span>
+            </td>
+            <td data-name="order_by">
+                <span id="el1_category_order_by" class="el_category_order_by">
+                    <a href="#">ลิ้งค์สำหรับเซ็นสัญญา</a>
+                </span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="row"><!-- buttons .row -->
+    <div class="<?= $Page->OffsetColumnClass ?>"><!-- buttons offset -->
+<button class="btn btn-primary ew-btn" name="btn-action" id="btn-action" type="button">ดาวน์โหลดเอกสาร</button>
+<button class="btn btn-default ew-btn" name="btn-cancel" id="btn-cancel" type="button">ยกเลิกเอกสารนี้</button>
+    </div><!-- /buttons offset -->
+</div>
 <?php } ?>
 </form>
 <?php
